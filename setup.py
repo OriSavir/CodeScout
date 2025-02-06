@@ -2,8 +2,8 @@ from setuptools import setup, find_packages
 
 setup(
     name="CodeScout",
-    version="0.1.0",  # Update for new releases
-    packages=find_packages(),  # Automatically find package directories
+    version="0.1.0", 
+    packages=find_packages(),
     install_requires=[
         "requests",
         "argparse",
@@ -14,8 +14,8 @@ setup(
             "CodeScout=CodeScout.cli:main"
         ]
     },
-    author="Oriel Savir",
-    author_email="osavir1@jhu.edu",
+    author="OriSavir",
+    author_email="osavir1 at jhu dot edu",
     description="A CLI tool for reviewing code using LLMs, currently supports OpenAI models",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
